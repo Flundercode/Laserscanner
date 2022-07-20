@@ -241,6 +241,8 @@ namespace Laserscanner
             DA.SetDataList(0, ratioWidth);
             DA.SetDataList(1, angleScanner);
             DA.SetDataList(2, ratioHeight);
+
+            //<><
         }
         protected override System.Drawing.Bitmap Icon => Properties.Resources.Resources.ghIcon3;
         public override Guid ComponentGuid => new Guid("1234abcd-1234-abcd-5678-abc123def456");
